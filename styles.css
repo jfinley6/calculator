@@ -1,0 +1,227 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: yellow;
+    width: 550px;
+    height: 550px;
+    margin-top: 10px;
+    display: grid; 
+    padding: 15px;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    justify-content: center;
+   
+}
+
+.calculatorButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    border-radius: 8px;
+}
+
+
+
+#item-0 {
+
+    background-color: #7BE96B; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 5;
+    
+ }
+
+ #deleteButton {
+    background-color:green;
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#resetButton {
+    background-color: blue;
+    grid-row-start: 2;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+ 
+ #item-4 {
+    background-color: #968756; 
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 2;
+    
+ }
+ #item-5 {
+ 
+    background-color: #577996; 
+    grid-row-start: 3;
+    grid-column-start: 2;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+ }
+ #item-6 {
+ 
+    background-color: #DD797E; 
+    grid-row-start: 3;
+    grid-column-start: 3;
+ 
+    grid-row-end: 4;
+    grid-column-end: 4;
+    
+ }
+ #item-7 {
+ 
+    background-color: #CEB9DC; 
+    grid-row-start: 3;
+    grid-column-start: 4;
+ 
+    grid-row-end: 4;
+    grid-column-end: 5;
+    
+ }
+ #item-8 {
+ 
+    background-color: #D975CD; 
+    grid-row-start: 4;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 2;
+    
+ }
+ #item-9 {
+ 
+    background-color: #9757B5; 
+    grid-row-start: 4;
+    grid-column-start: 2;
+ 
+    grid-row-end: 5;
+    grid-column-end: 3;
+    
+ }
+ #item-10 {
+ 
+    background-color: #97F5C7; 
+    grid-row-start: 4;
+    grid-column-start: 3;
+ 
+    grid-row-end: 5;
+    grid-column-end: 4;
+    
+ }
+ #item-11 {
+ 
+    background-color: #979CAB; 
+    grid-row-start: 4;
+    grid-column-start: 4;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+    
+ }
+ #item-12 {
+ 
+    background-color: #B9CEBE; 
+    grid-row-start: 5;
+    grid-column-start: 1;
+ 
+    grid-row-end: 6;
+    grid-column-end: 2;
+    
+ }
+ #item-13 {
+ 
+    background-color: #5ADBE8; 
+    grid-row-start: 5;
+    grid-column-start: 2;
+ 
+    grid-row-end: 6;
+    grid-column-end: 3;
+    
+ }
+ #item-14 {
+ 
+    background-color: #BAEDD7; 
+    grid-row-start: 5;
+    grid-column-start: 3;
+ 
+    grid-row-end: 6;
+    grid-column-end: 4;
+    
+ }
+ #item-15 {
+ 
+    background-color: #7D575B; 
+    grid-row-start: 5;
+    grid-column-start: 4;
+ 
+    grid-row-end: 6;
+    grid-column-end: 5;
+    
+ }
+ #item-16 {
+ 
+    background-color: #79ADE6; 
+    grid-row-start: 6;
+    grid-column-start: 1;
+ 
+    grid-row-end: 7;
+    grid-column-end: 2;
+    
+ }
+
+ #item-17 {
+ 
+    background-color: #79ADE6; 
+    grid-row-start: 6;
+    grid-column-start: 2;
+ 
+    grid-row-end: 7;
+    grid-column-end: 3;
+    
+ }
+
+ #item-18 {
+ 
+    background-color: #79ADE6; 
+    grid-row-start: 6;
+    grid-column-start: 3;
+ 
+    grid-row-end: 7;
+    grid-column-end: 4;
+    
+ }
+
+ #item-19 {
+ 
+    background-color: #79ADE6; 
+    grid-row-start: 6;
+    grid-column-start: 4;
+ 
+    grid-row-end: 7;
+    grid-column-end: 5;
+    
+ }
