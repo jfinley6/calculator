@@ -1,221 +1,252 @@
 body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #11a9e2;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #11a9e2;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    color: white;
-    text-shadow: 1px 1px black, 
-                2px 2px black, 
-                3px 3px black;
-   margin-bottom: 15px;
-   margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	color: white;
+	text-shadow: 1px 1px black, 2px 2px black, 3px 3px black;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .calculator {
-    background-color: grey;
-    border-radius: 10px;
-    width: 600px;
-    height: 550px;
-    margin-top: 10px;
-    display: grid; 
-    padding: 25px;
-    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-    justify-content: center;
-    box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.5),
-    0 2px 2px rgba(0,0,0,0.3),
-    0 0 4px 1px rgba(0,0,0,0.2),
-    inset 0 3px 2px rgba(255,255,255,.22), 
-    inset 0 -3px 2px rgba(0,0,0,.15), 
-    inset 0 20px 10px rgba(255,255,255,.12), 
-    0 0 4px 1px rgba(0,0,0,.1), 
-    0 3px 2px rgba(0,0,0,.2);
-   
+	background-color: grey;
+	border-radius: 10px;
+	width: 600px;
+	height: 550px;
+	margin-top: 10px;
+	display: grid;
+	padding: 25px;
+	grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	justify-content: center;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5),
+		0 2px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(0, 0, 0, 0.2),
+		inset 0 3px 2px rgba(255, 255, 255, 0.22),
+		inset 0 -3px 2px rgba(0, 0, 0, 0.15),
+		inset 0 20px 10px rgba(255, 255, 255, 0.12),
+		0 0 4px 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .calculatorButtons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #c2d4b1;
-    font-size: 46px;
-    border-radius: 10px;
-    box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.5),
-    0 2px 2px rgba(0,0,0,0.3),
-    0 0 4px 1px rgba(0,0,0,0.2),
-    inset 0 3px 2px rgba(255,255,255,.22), 
-    inset 0 -3px 2px rgba(0,0,0,.15), 
-    inset 0 20px 10px rgba(255,255,255,.12), 
-    0 0 4px 1px rgba(0,0,0,.1), 
-    0 3px 2px rgba(0,0,0,.2);
-    font-family: 'Orbitron'
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #c2d4b1;
+	font-size: 46px;
+	border-radius: 10px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5),
+		0 2px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(0, 0, 0, 0.2),
+		inset 0 3px 2px rgba(255, 255, 255, 0.22),
+		inset 0 -3px 2px rgba(0, 0, 0, 0.15),
+		inset 0 20px 10px rgba(255, 255, 255, 0.12),
+		0 0 4px 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.2);
+	font-family: "Orbitron";
 }
 
-
+.calculatorButtons:hover {
+	background-color: #d0e4bd;
+	cursor: pointer;
+}
 
 #screen {
-   display: flex;
-   border-radius: 10px;
-   background-color: #9bbc0f;
-   grid-row-start: 1;
-   grid-column-start: 1;
-   grid-row-end: 2;
-   grid-column-end: 5;
-   box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
-   0 2px 2px rgba(0,0,0,0.3),
-   0 0 4px 1px rgba(0,0,0,0.2),
-   inset 0 3px 2px rgba(255,255,255,.22), 
-   inset 0 -3px 2px rgba(0,0,0,.15), 
-   inset 0 20px 10px rgba(255,255,255,.12), 
-   0 0 4px 1px rgba(0,0,0,.1), 
-   0 3px 2px rgba(0,0,0,.2);
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: flex-end;
- }
+	display: flex;
+	border-radius: 10px;
+	background-color: #9bbc0f;
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-row-end: 2;
+	grid-column-end: 5;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5),
+		0 2px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(0, 0, 0, 0.2),
+		inset 0 3px 2px rgba(255, 255, 255, 0.22),
+		inset 0 -3px 2px rgba(0, 0, 0, 0.15),
+		inset 0 20px 10px rgba(255, 255, 255, 0.12),
+		0 0 4px 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.2);
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+}
 
- #operatorResult {
-    margin-right: 20px;
-    font-size: 30px;
-    font-family: 'Orbitron'
- }
+#operatorResult {
+	margin-right: 20px;
+	font-size: 30px;
+	font-family: "orbitron";
+}
 
- #currentNumber {
-    margin-right: 20px;
-    font-size: 45px;
-    margin-bottom: 10px;
-    font-family: 'Orbitron'
- }
+#currentNumber {
+	margin-right: 20px;
+	font-size: 45px;
+	margin-bottom: 10px;
+	font-family: "Orbitron";
+}
 
- #deleteButton {
-    background-color: #dd2d00;
-    grid-row-start: 2;
-    grid-column-start: 3;
-    grid-row-end: 3;
-    grid-column-end: 5;
+#deleteButton {
+	background-color: #dd2d00;
+	grid-row-start: 2;
+	grid-column-start: 3;
+	grid-row-end: 3;
+	grid-column-end: 5;
+}
+
+#deleteButton:hover {
+	background-color: #ee3b0e;
 }
 
 #resetButton {
-    background-color: #FF9500;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    grid-column-end: 3;
-    
+	background-color: #ff9500;
+	grid-row-start: 2;
+	grid-column-start: 1;
+	grid-row-end: 3;
+	grid-column-end: 3;
 }
- 
- #sevenButton {
-    grid-row-start: 3;
-    grid-column-start: 1;
-    grid-row-end: 4;
-    grid-column-end: 2;
- }
- #eightButton {
-    grid-row-start: 3;
-    grid-column-start: 2;
-    grid-row-end: 4;
-    grid-column-end: 3;
- }
- #nineButton {
-    grid-row-start: 3;
-    grid-column-start: 3;
-    grid-row-end: 4;
-    grid-column-end: 4;
- }
- #divisionButton {
-    background-color: #a6b992; 
-    grid-row-start: 3;
-    grid-column-start: 4;
-    grid-row-end: 4;
-    grid-column-end: 5;
- }
- #fourButton {
-    grid-row-start: 4;
-    grid-column-start: 1;
-    grid-row-end: 5;
-    grid-column-end: 2;
- }
- #fiveButton {
-    grid-row-start: 4;
-    grid-column-start: 2;
-    grid-row-end: 5;
-    grid-column-end: 3;
- }
- #sixButton {
-    grid-row-start: 4;
-    grid-column-start: 3;
-    grid-row-end: 5;
-    grid-column-end: 4;
- }
- #multiply {
-    background-color: #a6b992; 
-    grid-row-start: 4;
-    grid-column-start: 4;
-    grid-row-end: 5;
-    grid-column-end: 5;
- }
- #oneButton {
-    grid-row-start: 5;
-    grid-column-start: 1;
-    grid-row-end: 6;
-    grid-column-end: 2;
- }
- #twoButton {
-    grid-row-start: 5;
-    grid-column-start: 2;
-    grid-row-end: 6;
-    grid-column-end: 3;
- }
- #threeButton {
-    grid-row-start: 5;
-    grid-column-start: 3;
-    grid-row-end: 6;
-    grid-column-end: 4;
- }
- #minus {
-    background-color: #a6b992; 
-    grid-row-start: 5;
-    grid-column-start: 4;
-    grid-row-end: 6;
-    grid-column-end: 5;
- }
- #decimal { 
-    grid-row-start: 6;
-    grid-column-start: 1;
-    grid-row-end: 7;
-    grid-column-end: 2;
- }
 
- #zeroButton {
-    grid-row-start: 6;
-    grid-column-start: 2;
-    grid-row-end: 7;
-    grid-column-end: 3;
- }
+#resetButton:hover {
+	background-color: #ffa21f;
+}
 
- #equals {
-    background-color: #a6b992; 
-    grid-row-start: 6;
-    grid-column-start: 3;
-    grid-row-end: 7;
-    grid-column-end: 4;
- }
+#sevenButton {
+	grid-row-start: 3;
+	grid-column-start: 1;
+	grid-row-end: 4;
+	grid-column-end: 2;
+}
 
- #plus {
-    background-color: #a6b992; 
-    grid-row-start: 6;
-    grid-column-start: 4;
-    grid-row-end: 7;
-    grid-column-end: 5;
- }
+#eightButton {
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-row-end: 4;
+	grid-column-end: 3;
+}
+
+#nineButton {
+	grid-row-start: 3;
+	grid-column-start: 3;
+	grid-row-end: 4;
+	grid-column-end: 4;
+}
+
+#division {
+	background-color: #a6b992;
+	grid-row-start: 3;
+	grid-column-start: 4;
+	grid-row-end: 4;
+	grid-column-end: 5;
+}
+
+#division:hover {
+	background-color: #b3c3a0;
+}
+
+#fourButton {
+	grid-row-start: 4;
+	grid-column-start: 1;
+	grid-row-end: 5;
+	grid-column-end: 2;
+}
+
+#fiveButton {
+	grid-row-start: 4;
+	grid-column-start: 2;
+	grid-row-end: 5;
+	grid-column-end: 3;
+}
+
+#sixButton {
+	grid-row-start: 4;
+	grid-column-start: 3;
+	grid-row-end: 5;
+	grid-column-end: 4;
+}
+
+#multiply {
+	background-color: #a6b992;
+	grid-row-start: 4;
+	grid-column-start: 4;
+	grid-row-end: 5;
+	grid-column-end: 5;
+}
+
+#multiply:hover {
+	background-color: #b3c3a0;
+}
+
+#oneButton {
+	grid-row-start: 5;
+	grid-column-start: 1;
+	grid-row-end: 6;
+	grid-column-end: 2;
+}
+
+#twoButton {
+	grid-row-start: 5;
+	grid-column-start: 2;
+	grid-row-end: 6;
+	grid-column-end: 3;
+}
+
+#threeButton {
+	grid-row-start: 5;
+	grid-column-start: 3;
+	grid-row-end: 6;
+	grid-column-end: 4;
+}
+
+#minus {
+	background-color: #a6b992;
+	grid-row-start: 5;
+	grid-column-start: 4;
+	grid-row-end: 6;
+	grid-column-end: 5;
+}
+
+#minus:hover {
+	background-color: #b3c3a0;
+}
+
+#decimal {
+	grid-row-start: 6;
+	grid-column-start: 1;
+	grid-row-end: 7;
+	grid-column-end: 2;
+}
+
+#zeroButton {
+	grid-row-start: 6;
+	grid-column-start: 2;
+	grid-row-end: 7;
+	grid-column-end: 3;
+}
+
+#equals {
+	background-color: #a6b992;
+	grid-row-start: 6;
+	grid-column-start: 3;
+	grid-row-end: 7;
+	grid-column-end: 4;
+}
+
+#equals:hover {
+	background-color: #b3c3a0;
+}
+
+#plus {
+	background-color: #a6b992;
+	grid-row-start: 6;
+	grid-column-start: 4;
+	grid-row-end: 7;
+	grid-column-end: 5;
+}
+
+#plus:hover {
+	background-color: #b3c3a0;
+}
