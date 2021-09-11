@@ -103,7 +103,9 @@ operatorButtons.forEach((operator) => {
 //Takes the two numbers and calculates them based on which operator the user has entered
 function calculate() {
 	const calcResult = operate(parseFloat(firstNumber), parseFloat(storedNumber), clickedOperator);
-
+	if (calcResult === 0) {
+		setTimeout(resetScreen, 1000);
+	}
 	result.innerHTML = Math.round(calcResult * 100) / 100 + " " + clickedOperator;
 	finalResult = Math.round(calcResult * 100) / 100;
 }
