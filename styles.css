@@ -13,14 +13,14 @@ h1 {
 	color: white;
 	text-shadow: 1px 1px black, 2px 2px black, 3px 3px black;
 	margin-bottom: 15px;
-	margin-top: 55px;
+	margin-top: 30px;
 }
 
 .calculator {
 	background-color: grey;
-	border-radius: 10px;
-	width: 600px;
-	height: 550px;
+	border-radius: 25px;
+	width: 500px;
+	height: 650px;
 	margin-top: 10px;
 	display: grid;
 	padding: 25px;
