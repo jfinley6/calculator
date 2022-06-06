@@ -145,9 +145,3 @@ function resetScreen() {
 	result.innerHTML = "";
 	currentNumber.innerHTML = "0";
 }
-
-
-
-
-
-
